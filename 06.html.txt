@@ -1,0 +1,5 @@
+function trueOrFalse(val){
+ if (val==false) return 'false'; 
+if (val==null) return 'false'
+ else return 'true'; 
+}
