@@ -1,0 +1,6 @@
+function enough(cap, on, wait) {
+let total=wait+on
+ if (total<=cap){
+   return 0;
+    } else { return on+wait-cap ;
+  }
