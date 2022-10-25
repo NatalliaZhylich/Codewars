@@ -1,0 +1,7 @@
+function maps(x){
+    var x2 = [];
+     for(var i = 0; i<x.length; i++) {
+         x2.push(x[i]*2);
+     }
+     return x2;
+};
