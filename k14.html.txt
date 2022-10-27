@@ -1,0 +1,8 @@
+function pillars(numPill, dist, width) {
+  if (numPill >=2) {
+  return (dist*(numPill-1)*100)+width*(numPill-2);
+  } if (numPill=1) 
+    return 0;
+  
+  // your code here
+}
