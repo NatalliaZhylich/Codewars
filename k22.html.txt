@@ -1,0 +1,13 @@
+function oddCount(n){
+let newN=[]
+  for (let i=0; i<n; i++) {
+  if (i < n && i%2 !== 0) {
+    newN.push(i)
+  }
+}
+return newN.length  // your code here
+}
+
+function oddCount(n){
+return Math.floor(n/2);  // your code here
+}
