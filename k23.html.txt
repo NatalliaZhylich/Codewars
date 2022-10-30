@@ -1,0 +1,23 @@
+
+   if (power === 0) return 1;
+    if (number === 0) return 0;
+    if (number === 1) return 1;
+  
+    let result = 1;
+    while (power !== 0) {
+      result = result * number;
+       power = power - 1;
+         }
+  
+    return result;
+}
+
+function numberToPower(number, power){
+   let result = 1;
+  for (let i = 1; i <= power; i++) { 
+    result = result * number;
+  }
+  return result;
+}
+  // Code here
+}
