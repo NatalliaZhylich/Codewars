@@ -1,0 +1,24 @@
+var humanYearsCatYearsDogYears = function(humanYears) {
+  if (humanYears <= 2)
+    return [humanYears, 6 + 9 * humanYears, 6 + 9 * humanYears]
+  else
+    return [humanYears, 16 + 4 * humanYears, 14 + 5 * humanYears]
+}
+
+var humanYearsCatYearsDogYears = function(humanYears) {
+  var catYears = 0;
+  var dogYears = 0;
+  
+  if (humanYears === 1) {
+    catYears = 15;
+    dogYears = 15;
+  } else if (humanYears === 2) {
+    catYears = 24;
+    dogYears = 24;
+  } else if (humanYears > 2) {
+    catYears = 24 + (humanYears - 2) * 4;
+    dogYears = 24 + (humanYears - 2) * 5;
+  }
+
+  return [humanYears, catYears, dogYears];
+}
