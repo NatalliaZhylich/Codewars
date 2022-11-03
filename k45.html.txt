@@ -1,0 +1,10 @@
+const stringToNumber = function(str){
+  let a = Number(str); // put your code here
+  return a;
+}
+var stringToNumber = function(str){
+  return +str;
+}
+var stringToNumber = function(str){
+  return parseInt(str);
+}
