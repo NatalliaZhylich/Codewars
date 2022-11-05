@@ -1,0 +1,9 @@
+function arrayPlusArray(arr1, arr2) {
+
+  let arr3= arr1.concat(arr2);
+  let val = arr3.reduce(function(accumulator, currentValue){
+    return accumulator + currentValue;
+  });
+  
+  return val;
+  }

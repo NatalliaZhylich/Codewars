@@ -1,0 +1,8 @@
+function iceBrickVolume(radius, bottleLength, rimLength) {
+let wl=2*Math.pow(radius,2);
+  return wl*(bottleLength-rimLength)
+  
+  // Your code should be here ;)
+}
+
+ (bottleLength - rimLength) * 2 * radius ** 2;

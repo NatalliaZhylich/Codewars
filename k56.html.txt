@@ -1,0 +1,15 @@
+const reverseSeq = n => {
+ let array=[];
+  for (let i=1; i <= n; ++i){
+   array.push(i);
+ }
+ let revArray=array.reverse();
+  return revArray;
+};
+
+const reverseSeq = n => {
+let arr = [];
+  for (let i=n; i>0; i--) {
+    arr.push(i);
+    } return arr;
+};

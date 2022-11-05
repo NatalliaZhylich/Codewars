@@ -1,0 +1,30 @@
+function defineSuit(card) {
+let a=card.slice(-1)
+  if (a ==='♣') {
+  return 'clubs';
+} if (a ==='♦') {
+  return 'diamonds';
+} if (a ==='♥') {
+  return 'hearts';
+} if (a ==='♠') {
+  return 'spades';
+}
+  // good luck
+}
+
+function defineSuit(card) {
+if(card.includes('♥')) return 'hearts'
+if(card.includes('♦')) return 'diamonds'
+if(card.includes('♣')) return 'clubs'
+if(card.includes('♠')) return 'spades' 
+}
+
+function defineSuit(card) {
+  switch (card.slice(-1)){
+    case '♣': return 'clubs';
+    case '♦': return 'diamonds';
+    case '♥': return 'hearts';
+    case '♠': return 'spades';    
+  }
+    
+}
