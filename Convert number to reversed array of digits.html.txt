@@ -1,0 +1,7 @@
+function digitize(n) {
+let arr1=n.toString(10).split('').map(int => parseInt(int, 10));
+return arr1.reverse(); //code here
+}
+function digitize(n) {
+  return String(n).split('').map(Number).reverse()
+}
