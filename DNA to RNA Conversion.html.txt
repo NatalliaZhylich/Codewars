@@ -1,0 +1,10 @@
+function DNAtoRNA(dna) {
+var re=/T/gi;
+  var newStr=dna.replace(re,'U');
+  return newStr;
+  // create a function which returns an RNA sequence from the given DNA sequence
+}
+
+function DNAtoRNA(dna){
+  return dna.replace(/T/g, 'U');
+}

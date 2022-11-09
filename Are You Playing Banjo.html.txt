@@ -1,0 +1,20 @@
+
+function areYouPlayingBanjo(name) {
+let a = name.charAt(0).toLowerCase();
+  if (a === "r") {
+  return name + " plays banjo";
+} else {
+  return name + " does not play banjo";
+} // Implement me
+  
+}
+
+
+
+function areYouPlayingBanjo(name) {
+  // Implement me
+  if (name[0] == 'R' || name[0] == 'r')
+    return name + " plays banjo";
+  else
+    return name + " does not play banjo";
+}
