@@ -1,0 +1,15 @@
+function sumMix(x){
+return x
+  .map(n=> parseInt(n))
+  .reduce((total, currentValue) => {
+return total+currentValue
+  },0)
+}
+
+function sumMix(x){
+  var somme = 0;
+  for (i = 0; i<x.length; i++) {
+    somme += Number(x[i]);
+  }
+  return somme;
+}
