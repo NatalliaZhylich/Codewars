@@ -1,0 +1,8 @@
+function getAge(inputString){
+let a=inputString.charAt(0);
+  return Number(a);// return the girl's correct age as an integer. Happy coding :) 
+}
+
+function getAge(inputString){
+  return parseInt(inputString[0]); 
+}

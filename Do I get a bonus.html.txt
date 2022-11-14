@@ -1,0 +1,11 @@
+function bonusTime(salary, bonus) {
+if (bonus === true) {
+  return "£" + salary*10;
+  } else {
+    return "£" + salary; // your code here
+}
+  }
+
+function bonusTime(salary, bonus) {
+  return '£' + salary * (bonus ? 10 : 1);
+}
