@@ -1,0 +1,36 @@
+function squareOrSquareRoot(array) {
+ return array.map ( a => {
+   let b = Math.sqrt(a);
+   return (b % 1 == 0) ? b : (a*a);                 
+  });
+  }
+
+function squareOrSquareRoot(array) {
+  var processed = [];
+
+  for (var i=0; i<array.length; i++){
+    var number = array[i];
+    
+    if (Math.sqrt(number) == Math.floor(Math.sqrt(number))){
+      processed.push(Math.sqrt(number));
+    }
+    else {
+      processed.push(number*number);
+    }
+    
+  }
+  return processed;
+}
+
+function squareOrSquareRoot(array) {
+  var newArray = [];  
+  for (let i=0; i < array.length; i++) {
+    var a = array[i];
+  if ( Math.sqrt(a) % 1 == 0) {
+    newArray.push(Math.sqrt(a));
+  } else { newArray.push(a*a);
+}
+    }
+  return newArray;
+  
+  }

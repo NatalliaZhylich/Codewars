@@ -1,0 +1,8 @@
+function getChar(c){
+let n = String.fromCharCode(c);
+  return n;// ...
+}
+
+function getChar(c) {
+  return String.fromCharCode(c)
+}
