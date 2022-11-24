@@ -5,3 +5,7 @@ function toBinary(n){
 toBinary = (n) => parseInt(n.toString(2));
 
 const toBinary = n => Number(n.toString(2)) ;
+
+function binToDec(bin){
+  return parseInt(bin,2);
+}

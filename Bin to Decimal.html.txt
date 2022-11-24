@@ -1,0 +1,4 @@
+function binToDec(bin){
+let a = parseInt(bin, 2).toString(10);
+  return Number(a);
+}
