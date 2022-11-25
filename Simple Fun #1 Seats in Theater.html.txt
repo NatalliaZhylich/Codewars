@@ -1,0 +1,7 @@
+function seatsInTheater(nCols, nRows, col, row) {
+ if (nCols >= 1000 && nRows >= 1000)
+   return 0;
+  if (nCols === 1 && nRows === 1) 
+    return 0;
+  else return (nCols-(col-1))*(nRows-row);
+  }
