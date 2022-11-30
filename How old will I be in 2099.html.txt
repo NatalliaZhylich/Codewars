@@ -1,0 +1,16 @@
+function  calculateAge(by,cy) {
+let a = cy - by;
+  if (a === 1) {
+  return `You are ${a} year old.`;
+} 
+  if (cy > by) {
+  return `You are ${a} years old.`;
+}  if (a === -1 ) {
+ return `You will be born in 1 year.`
+}     if (cy < by ) {
+ return `You will be born in ${Math.abs(a)} years.`
+} else 
+  return "You were born this very year!";
+// enter your code here.
+
+}

@@ -1,0 +1,17 @@
+function differenceInAges(ages){
+let newArr=[]
+  let min = Math.min.apply(null,ages);
+  let max = Math.max.apply(null,ages);
+  newArr.push(min);
+  newArr.push(max);
+  newArr.push(max-min);
+  return newArr;
+}
+function differenceInAges (ages) {
+
+    let max = Math.max(...ages),
+        min = Math.min(...ages)
+        diff = max - min
+        
+    return [min, max, diff]
+}

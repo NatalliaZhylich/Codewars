@@ -1,0 +1,5 @@
+function derive(coefficient,exponent) {
+let mult=coefficient*exponent;
+  let degree=exponent-1;
+  return `${mult}x^${degree}`;  
+}

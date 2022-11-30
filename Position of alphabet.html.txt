@@ -1,0 +1,8 @@
+function position(l){
+const i = ' abcdefghijklmnopqrstuvwxyz'.indexOf(l);
+  return `Position of alphabet: ${i}`;//Write your own Code!
+}
+
+function position(letter) {
+  return `Position of alphabet: ${letter.charCodeAt(0) - 96}`
+}

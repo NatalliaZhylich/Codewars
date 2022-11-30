@@ -1,0 +1,22 @@
+function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+let sharkTime = sharkDistance/(dolphin ? sharkSpeed/2 : sharkSpeed);
+  let youTime = pontoonDistance/youSpeed;
+  if (sharkTime < youTime) {
+    return "Shark Bait!"
+  } else return "Alive!";
+  }
+
+function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+  let shTime = sharkDistance/sharkSpeed;
+  let youTime = pontoonDistance/youSpeed;
+  if (dolphin == true){
+    shTime = shTime * 2;
+  }
+  if (youTime < shTime){
+    return "Alive!";
+  }
+  else{
+    return "Shark Bait!";
+  }
+  
+}

@@ -1,0 +1,7 @@
+var websites = [];
+for(i=0; i<1000; i++) {
+  websites.push('codewars');
+}
+
+var websites = [];
+while (websites.length < 1000) websites.push("codewars")

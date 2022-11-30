@@ -1,0 +1,41 @@
+class God{
+/**
+ * @returns Human[]
+ */
+  static create(){
+    const Adam = new Man();
+    const Eva = new Woman();
+    return [Adam, Eva];// code
+  }
+}
+class Human {
+  constructor() {}
+}
+class Man extends Human {
+  constructor() {
+    super();
+  }
+}
+
+class Woman extends Human {
+  constructor() {
+    super();
+  }
+}
+// code
+
+
+
+
+
+class God{
+/**
+ * @returns Human[]
+ */
+  static create(){
+    return [new Man, new Woman];
+  }
+}
+class Human{}
+class Man extends Human{}
+class Woman extends Human{}
