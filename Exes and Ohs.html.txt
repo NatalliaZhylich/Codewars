@@ -1,0 +1,18 @@
+function XO(str) {
+  let xn = '';
+  let on = '';
+  for (let i=0; i<str.length; i++) {
+    if (str[i].toLowerCase() === 'x') {
+      xn += str[i];
+      } else if (str[i].toLowerCase() === 'o') {
+      on += str[i];
+      }
+    }
+    return xn.length === on.length ;
+}
+
+function XO(str) {
+  let x = str.match(/x/gi);
+  let o = str.match(/o/gi);
+  return (x && x.length) === (o && o.length);
+}
