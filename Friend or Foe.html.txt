@@ -1,0 +1,11 @@
+function friend(friends){
+let newArr= [];
+  for (let i=0; i<friends.length; i++ ) {
+  if (friends[i].length == 4)
+    newArr.push(friends[i]);//your code here
+} return newArr;
+  }
+
+function friend(friends){
+  return friends.filter(n => n.length === 4)
+}

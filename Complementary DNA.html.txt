@@ -1,0 +1,10 @@
+function DNAStrand(dna){
+let complements = { A: 'T', T: 'A', G: 'C', C: 'G'}
+  return dna.replace(/./g, e => complements[e]);  //your code here
+}
+
+var pairs = {'A':'T','T':'A','C':'G','G':'C'};
+
+function DNAStrand(dna){
+  return dna.split('').map(function(v){ return pairs[v] }).join('');
+}
