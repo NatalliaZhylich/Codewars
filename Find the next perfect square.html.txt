@@ -1,0 +1,6 @@
+function findNextSquare(sq) {
+  let a = Math.sqrt(sq);
+  if (a %1 == 0) {
+    return (a+1)*(a+1);
+    } else    return -1;
+}
