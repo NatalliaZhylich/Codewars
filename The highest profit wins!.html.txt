@@ -1,0 +1,8 @@
+function minMax(arr){
+ let newArr=[];
+  let min = Math.min.apply(null,arr);
+  let max = Math.max.apply(null,arr);
+ newArr.push(min, max);
+  
+  return newArr; // fix me!
+}
