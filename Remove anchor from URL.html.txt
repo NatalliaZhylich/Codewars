@@ -1,0 +1,6 @@
+function removeUrlAnchor(url){
+ let result = url.split('#')[0]
+  return result;
+  }
+
+const removeUrlAnchor = url => url.replace(/#.+$/,'');
