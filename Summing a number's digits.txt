@@ -1,0 +1,6 @@
+function sumDigits(number) {
+  return eval(Math.abs(number).toString().split("").join("+"));
+
+function sumDigits(number) {
+  return Math.abs(number).toString().split('').reduce(function(a,b){return +a + +b}, 0);
+}
