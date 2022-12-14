@@ -1,0 +1,14 @@
+const mxdiflg = (a1, a2) => {
+if (a1.length * a2.length ===0) {
+  return -1;
+  }
+  const minA1=Math.min(...a1.map(x=>x.length));
+  const minA2=Math.min(...a2.map(x=>x.length));
+  const maxA1=Math.max(...a1.map(x=>x.length));
+  const maxA2=Math.max(...a2.map(x=>x.length));
+  const dif1=Math.abs(minA1 - maxA2);
+  const dif2=Math.abs(maxA1 - minA2);
+  if (dif1 > dif2){
+    return dif1;
+  } else return dif2;
+}

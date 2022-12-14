@@ -1,0 +1,13 @@
+const smallEnough= (a, limit)=> a.every(element=> element <= limit);
+
+function smallEnough(a, limit){
+  return Math.max(...a) <= limit
+}
+
+function smallEnough(a, limit){
+	for (let i = 0; i < a.length; i++){
+  	if (a[i] > limit) {
+    	return false
+    }
+  }
+  return true
